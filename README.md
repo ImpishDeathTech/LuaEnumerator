@@ -20,6 +20,6 @@ e = enum.rev('A','B','C','D') -- outputs: { A = 4, B = 3, C = 2, D = 1, COUNT = 
 e = enum.neg('A','B','C','D') -- outputs: { A = 0, B = -1, C = -2, D = -3, COUNT = 4 }
 ```
 
-It's a simple single c++ file, so with any C compiler, turn that into a .dll/.so:
+It's a simple single c++ file, so with any C compiler, you can turn that into a .dll/.so easy:
 
 `c++ enum.cxx -c -llua -fPIC && c++ enum.o -shared -o enum.so`
