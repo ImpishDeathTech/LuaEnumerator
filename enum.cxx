@@ -2,7 +2,7 @@
 *   enum.cxx
 *
 *   Copyright (c) 2021 Christopher Stephen Rafuse, ImpishDeathTech@protonmail.ch
-*   BSD-3-Clause
+*   BSD-3-Clause, A.R.R.
 *
 */
 
