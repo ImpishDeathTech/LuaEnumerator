@@ -23,3 +23,8 @@ e = enum.neg('A','B','C','D') -- outputs: { A = 0, B = -1, C = -2, D = -3, COUNT
 It's a simple single c++ file, so with any C compiler, you can turn that into a .dll/.so easy:
 
 `c++ enum.cxx -c -llua -fPIC && c++ enum.o -shared -o enum.so`
+
+For unix system users with sudo, I have prepared a small install.sh for you. Hit it with a `chmod +x` then run it as usual. This will place the resulting shared library in with the lua 5.4 libraries and ensure ease of use.
+
+`chmod +x install.sh && ./install.sh`
+
