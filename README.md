@@ -1,5 +1,6 @@
 # LuaEnumerator
-### A (kind of) efficient enumeration facility for lua 5.4 written in C++
+## A (kind of) efficient enumeration facility for lua 5.4 written in C++
+### by Fluffykins Allmighty, IDT
 
 Can enumerate from one or any other integer, depending on how you call `enum.erate()`, and will always enumerate from 1 if no value is given
 
